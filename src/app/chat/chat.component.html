@@ -1,0 +1,55 @@
+<div class="label"><h3>Start Chat</h3></div>
+<div class="col-md-12" id="results">
+  <!-- <p>aa</p>
+  <b>
+    
+  </b> -->
+</div>
+<div class="col-md-6">
+  <form class="form"> 
+    <div class="col-md-8">
+      <input type="text" class="textBox form-control" [(ngModel)]="chatData" placeholder="Type here..." 
+      [ngModelOptions]="{standalone: true}" />
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-group"  (click)="chatSend()">Send</button>
+    </div>
+  </form>
+</div>
+<!-- <div class="row columns">
+  <div class="container">
+    <ul *ngFor="let item of items">
+      <li class="left clearfix"><a href="#">{{nameService.userDetails?.displayName}}</a>
+        <p>{{item.message}}</p>
+      </li>
+    </ul>
+  </div>  
+<form class="form"> 
+  <input type="text" [(ngModel)]="chatData" placeholder="Chat here..." 
+  [ngModelOptions]="{standalone: true}" />
+  <button class="button" style="font-size: 10px;padding: 11px 11px;border-radius: 5px;" 
+  (click)="chatSend()">Send</button>
+</form>
+</div>
+<div>
+</div> -->
+
+<!-- <div class="col-sm-3 col-sm-offset-4 frame">
+    <ul class="container darker" *ngFor="let item of items">
+      <li class="left clearfix"><a href="#">{{nameService.userDetails?.displayName}}</a><p>{{item.message}}</p></li>
+      <li class="right clearfix"><a href="#">{{nameService.userDetails?.displayName}}</a><p>{{item.message}}</p></li>
+    </ul>
+    <ul class="container" *ngFor="let item of items">
+      <li class="left clearfix"><a href="#">{{nameService.userDetails?.displayName}}</a><p>{{item.message}}</p></li>
+      <li class="right clearfix"><a href="#">{{nameService.userDetails?.displayName}}</a><p>{{item.message}}</p></li>
+    </ul>
+    <div>
+        <div class="msj-rta macro" style="margin:auto">                        
+          <div class="text text-r" style="background:whitesmoke !important">
+            <input type="text" class="col-md-8" [(ngModel)]="chatData" placeholder="Chat here..."  [ngModelOptions]="{standalone: true}">
+            <button class="col-md-4" style="font-size: 10px;padding: 11px 11px;border-radius: 5px;" (click)="chatSend()">Send</button>
+          </div> 
+        </div>
+    </div>
+</div> -->
+

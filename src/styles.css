@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+.button {
+  padding: 12px 20px;
+  margin: 4px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3682c4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  /*margin-left: 200px;*/
+}
+
+.button:hover {background-color: #193e5e}
+
+.button:active {
+  background-color: #193e5e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ul{list-style: none;}
+
+.bgImage{
+  background-image: url(./assets/images/backgroundImage.jpg);
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  /*-webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px); */
+}
+
+.textBox{
+  border:none; 
+}
+
+body{
+    font-family: 'HelveticaNeue-Light';
+}
+.msg {
+  margin: 10px 0;
+  padding: 10px;
+  width: 400px;
+  background-color: steelblue;
+}
+#username, #text {
+  margin: 5px 0px;
+}
+#post {
+  padding: 0.5em 1em;
+  background-color: #50b1ff;
+  border: none;
+  color: #FFF;
+}
+
+b,p{
+  color: white;
+}
